@@ -80,9 +80,6 @@ Public Sub Del_Cell_Automation()
         ElseIf cell.Interior.Color <> RGB(255, 255, 255) Then
             cell.EntireRow.Delete
             i = i - 1
-        ElseIf cell.Interior.Color <> RGB(255, 255, 255) Then
-            cell.EntireRow.Delete
-            i = i - 1
             
         ' Here! You can add more conditions as needed in this block of FOR loop
 
