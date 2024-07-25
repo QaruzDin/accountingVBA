@@ -1,4 +1,6 @@
 # DelCellAutomationV1
+
+![DemoGIF](https://github.com/user-attachments/assets/526f1f29-5f1f-4cfe-9bc3-15f2336057f3)
 ## Overview
 DelCellAutomationV1 is a VBA (Visual Basic for Applications) script designed to automate the deletion of specific cells in an Excel worksheet based on certain conditions. This script is particularly useful for cleaning up datasets where certain columns need to be removed under specific circumstances without deleting the entire column.
 
