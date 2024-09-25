@@ -186,7 +186,7 @@ Sub finalSum()
     
     Set sumcells = Range("A1").Offset(3, 0).End(xlDown).Offset(1, 2)
     With sumcells
-        .Formula = "=SUM(" & Range(Range("A1").Offset(1, 2), sumcells.Offset(-1, 0)).Address & ")"
+        .Formula = "=SUM(" & Range(sumcells.Offset(-1, 0).End(xlUp).Offset(1, 0), sumcells.Offset(-1, 0)).Address & ")"
         .Offset(-1, 0).Copy
         .PasteSpecial Paste:=xlPasteFormats
         .Offset(0, -1).Value = "Total"
