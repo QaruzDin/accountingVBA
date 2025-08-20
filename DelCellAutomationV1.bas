@@ -108,7 +108,7 @@ Public Sub Del_Cell_Automation()
     ' to configure column delete
     
     Do
-        inputColumn = InputBox("Please, input the location of the column you want to delete:", "Input Column")
+        inputColumn = InputBox("Please, input the location of the column you want to keep it. The other columns from C will be erased:", "Input Column")
         If inputColumn = vbNullString Then
             abortMsg = MsgBox("Are you sure want to end the module?" & vbCrLf & _
                     "It would be used current formatting.", vbExclamation + vbYesNo)
@@ -192,3 +192,4 @@ Sub finalSum()
         .Offset(0, -1).Value = "Total"
     End With
 End Sub
+
